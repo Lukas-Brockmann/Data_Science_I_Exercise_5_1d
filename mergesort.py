@@ -37,7 +37,7 @@ def plot(input_list=[], demo=False):
     plt.title("List before sorting")
     plt.xlabel("Index")
     plt.ylabel("Value")
-    plt.plot(x, input_list)
+    plt.bar(x, input_list)
     plt.show()
     
     sorted_list = sort(input_list)
@@ -45,5 +45,5 @@ def plot(input_list=[], demo=False):
     plt.title("List after sorting")
     plt.xlabel("Index")
     plt.ylabel("Value")
-    plt.plot(x, sorted_list)
+    plt.bar(x, sorted_list)
     plt.show()
