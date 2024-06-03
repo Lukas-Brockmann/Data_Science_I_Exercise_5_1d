@@ -47,3 +47,5 @@ def plot(input_list=[], demo=False):
     plt.ylabel("Value")
     plt.bar(x, sorted_list)
     plt.show()
+
+# Just some addage to create a conflict in the repository
